@@ -7,12 +7,11 @@ public class ProcessorFactory {
 	private Processor processor;
 	
 	public ProcessorFactory(String name) {
-	
+		
 		this.name=name;
 		
 	}
 		
-	
 	public Processor getProcessor()
 	{
 		if(name.equalsIgnoreCase("Low"))
