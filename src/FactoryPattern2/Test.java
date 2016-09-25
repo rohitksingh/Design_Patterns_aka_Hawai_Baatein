@@ -9,7 +9,6 @@ public class Test {
 		FileProcessor fileProcessor=new CapturePhoto();
 		System.out.println(fileProcessor.processFile());
 		System.out.println("Now voice Recorder");
-		
 		fileProcessor=new RecordVoice();
 		System.out.println(fileProcessor.processFile());
 	}
