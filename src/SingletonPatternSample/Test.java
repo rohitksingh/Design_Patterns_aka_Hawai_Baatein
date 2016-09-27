@@ -1,7 +1,5 @@
 package SingletonPatternSample;
 
-import Singleton.Settings;
-
 public class Test {
 
 	public static void main(String[] args){
