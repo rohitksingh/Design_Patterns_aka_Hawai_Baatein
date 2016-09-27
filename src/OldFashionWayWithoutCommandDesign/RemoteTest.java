@@ -7,5 +7,9 @@ public class RemoteTest {
 		Remote remote=new Remote();
 		remote.setOption("LightOn");
 		remote.buttonPressed();
+		remote.setOption("DoorOpen");
+		remote.buttonPressed();
+		remote.setOption("DoorClosed");
+		remote.buttonPressed();
 	}
 }
