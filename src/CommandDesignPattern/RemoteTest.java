@@ -37,6 +37,16 @@ public class RemoteTest {
 	    
 	    remote.onButtonClicked(2);
 	    
+	    Command[] party=new Command[2];
+	    party[0]=tableLigthOn;
+	    party[1]=closeFrontDoor;
+	    
+	    MacroCommands partyOn=new MacroCommands(party);
+	    
+	    remote.setCommand(2, partyOn, noCommand);
+	    
+	    System.out.println("Party begins---- ");
+	    remote.onButtonClicked(2);
 	   
 	   
 	   
