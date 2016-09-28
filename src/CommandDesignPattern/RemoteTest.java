@@ -14,6 +14,13 @@ public class RemoteTest {
  		
  		Remote remote=new Remote();                                 ///<--------------Invoker                                        
 	    
+        Command noCommand=new Nocommand();
+ 		
+	    for(int i=0;i<7;i++)
+	    {
+	    	remote.setCommand(i, noCommand, noCommand);
+	    }
+ 		
 	    Door frontDoor=new Door();
 	    
 	    OpenDoor openFrontDoor=new OpenDoor(frontDoor);
@@ -27,6 +34,8 @@ public class RemoteTest {
 	    remote.onButtonClicked(1);
 	    remote.offButtonClicked(0);
 	    remote.offButtonClicked(1);
+	    
+	    remote.onButtonClicked(2);
 	    
 	   
 	   
