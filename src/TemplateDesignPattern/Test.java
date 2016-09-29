@@ -6,5 +6,8 @@ public class Test {
 	{
 		WriteWithPen pen =new WriteWithPen();
 		pen.start();
+		
+		WriteWithPencil pencil =new WriteWithPencil();
+		pencil.start();
 	}
 }
