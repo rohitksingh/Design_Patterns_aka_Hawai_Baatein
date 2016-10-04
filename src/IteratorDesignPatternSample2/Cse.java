@@ -2,12 +2,11 @@ package IteratorDesignPatternSample2;
 
 import java.util.ArrayList;
 
-import SingletonPattern2.Student;
-
 public class Cse {
 
-	private ArrayList<Student> list;
+	private ArrayList<IteratorDesignPatternSample2.Student> list;
 	private final String DEP_NAME="CSE";
+	private Iterator iterator;
 	
 	public Cse()
 	{
@@ -15,10 +14,16 @@ public class Cse {
 		add(new Student("Rohit",DEP_NAME));
 		add(new Student("Pikachu",DEP_NAME));
 	}
-	
+	/*
 	public ArrayList getAllStudent()
 	{
 		return list;
+	}*/
+	
+	public Iterator iterator()
+	{
+		CseIterator i=new CseIterator(list);
+		return iterator;
 	}
 	
 	public void add(Student s)
