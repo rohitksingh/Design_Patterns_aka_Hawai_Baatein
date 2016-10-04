@@ -1,6 +1,6 @@
 package IteratorDesignPatternSample2;
 
-public class MechIterator implements Iteratorr{
+public class MechIterator implements Iterator{
 
 	private Student[] stud;
 	private int index;

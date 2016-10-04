@@ -1,6 +1,6 @@
 package IteratorDesignPatternSample2;
 
-public interface Iteratorr {
+public interface Iterator {
 	
 	public Object next();
 	
