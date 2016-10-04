@@ -4,14 +4,16 @@ public class Student {
 
 	private String dep;
 	private String name;
-	private String rollNum;
 	
-	public Student(String name,String dep,String rollNum)
+	
+	public Student(String name,String dep)
 	{
 		this.name=name;
 		this.dep=dep;
-		this.rollNum=rollNum;
+	
 	}
+
+	
 
 	public String getDep() {
 		return dep;
