@@ -2,7 +2,7 @@ package IteratorDesignPatternSample2;
 
 import java.util.ArrayList;
 
-public class Cse {
+public class Cse implements Group{
 
 	private ArrayList<IteratorDesignPatternSample2.Student> list;
 	private final String DEP_NAME="CSE";
@@ -20,10 +20,10 @@ public class Cse {
 		return list;
 	}*/
 	
+	@Override
 	public Iterator iterator()
 	{
-		CseIterator i=new CseIterator(list);
-		return iterator;
+	   return iterator=new CseIterator(list);
 	}
 	
 	public void add(Student s)

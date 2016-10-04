@@ -2,13 +2,13 @@ package IteratorDesignPatternSample2;
 
 public class Display {
 
-	public Display()
+	public Display(Group group)
 	{
-		Cse cse=new Cse();
-		Mech mech=new Mech();
 		
-		Iterator i1=cse.iterator();
-		Iterator i2=mech.iterator();
+		Iterator i=group.iterator();
+		
+		while(i.hasNext())
+			System.out.println(i.next());
 		
 	}
 	

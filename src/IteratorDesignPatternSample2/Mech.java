@@ -1,7 +1,7 @@
 package IteratorDesignPatternSample2;
 
 
-public class Mech {
+public class Mech implements Group{
 
 	private Student[] group;
 	int index=0;
@@ -27,6 +27,7 @@ public class Mech {
 	}
 	*/
 	
+	@Override
 	public Iterator iterator()
 	{
 		return iterator=new MechIterator(group);
