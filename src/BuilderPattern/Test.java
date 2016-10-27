@@ -1,6 +1,21 @@
 package BuilderPattern;
 
 public class Test {
+	
+	/*
+	 
+	 Problems without builder pattern 
+	 
+	1) too many constructors to maintain.
+
+    2) You can partially solve this problem by creating Pizza and then adding
+    ingredients but that will impose another problem of leaving Object on
+    inconsistent state during building, ideally cake should not be available until its created.
+    Both of these problem can be solved by using Builder design pattern in Java. 
+    Builder design pattern not only improves readability but also reduces chance of error by adding ingredients 
+    explicitly and making object available ONCE FULLY CONSTRUCTED. 
+    
+	 */
 
 	public static void main(String[] args)
 	{
