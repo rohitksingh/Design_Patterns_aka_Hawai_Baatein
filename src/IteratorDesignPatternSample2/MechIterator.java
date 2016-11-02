@@ -24,6 +24,4 @@ public class MechIterator implements Iterator{
 		
 	}
 	
-	
-	
 }
