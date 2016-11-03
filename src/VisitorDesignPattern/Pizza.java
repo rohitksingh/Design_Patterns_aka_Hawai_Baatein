@@ -1,6 +1,6 @@
 package VisitorDesignPattern;
 
-public class Pizza {
+public class Pizza implements Visitable{
 	
 	private int price;
 	
@@ -12,6 +12,12 @@ public class Pizza {
 	public int getPrice()
 	{
 		return price;
+	}
+
+	@Override
+	public void acceptVisitor(Visitor visitor) {
+		
+		visitor.visit(this);
 	}
 
 }

@@ -1,6 +1,6 @@
 package VisitorDesignPattern;
 
-public class OtherStuff{
+public class OtherStuff implements Visitable{
 
 	private int price;
 	
@@ -12,6 +12,12 @@ public class OtherStuff{
 	public int getPrice()
 	{
 		return price;
+	}
+
+	@Override
+	public void acceptVisitor(Visitor visitor) {
+		
+		visitor.visit(this);
 	}
 
 }
