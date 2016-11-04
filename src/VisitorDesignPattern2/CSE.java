@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class CSE {
 
 	private ArrayList<Student> list;
+	private CSEIterator iterator;
 	
 	public CSE()
 	{
@@ -14,6 +15,11 @@ public class CSE {
 	public void addStudent(Student student)
 	{
 		list.add(student);
+	}
+	
+	public CSEIterator iterator()
+	{
+		return iterator = new CSEIterator(list);
 	}
 	
 }
