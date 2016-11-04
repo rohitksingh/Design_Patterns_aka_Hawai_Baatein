@@ -20,7 +20,7 @@ public class CSEIterator {
 	
 	public boolean hasNext()
 	{
-		return counter == list.size();
+		return counter < list.size();
 	}
 	
 

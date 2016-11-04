@@ -22,4 +22,8 @@ public class CSE {
 		return iterator = new CSEIterator(list);
 	}
 	
+	public void accept(CountEveryThing counter)
+	{
+		counter.printAllMembers(this);
+	}
 }
