@@ -6,7 +6,7 @@ In software engineering, a software design pattern is a general reusable solutio
 I have made this project during my free time when i was reading the [Head First Design Pattern](http://shop.oreilly.com/product/9780596007126.do). 
 
 ## This project contains following pattern
-You can jump to respective pattern source code by clicking on it.    
+You can jump to following patterns' source code by clicking on them.    
 
 - [Adapter Pattern](https://github.com/rohitksingh/Design-Pattern/tree/master/src/AdapterPattern)
 - [Builder Pattern](https://github.com/rohitksingh/Design-Pattern/tree/master/src/BuilderPattern)
@@ -24,7 +24,7 @@ You can jump to respective pattern source code by clicking on it.
 - [Visitor Design Pattern](https://github.com/rohitksingh/Design-Pattern/tree/master/src/VisitorDesignPattern)
 ---
 
-## Star this repository to show your support for this project.
+<h2 align="center">Star this repository to show your support for this project.</h2>
 
 ---
 ## About author
